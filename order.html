@@ -1,0 +1,582 @@
+<DOCTPYE! html>
+<html lang="en">
+<head>
+	<title>PHOPHO'S TACOS - Order Online</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+	<style>
+		*{
+			font-family: 'Quicksand';
+			margin: 0px;
+		}
+		#flexboxtext{
+			text-align: center;
+			justify-content: center;
+			display: flex;
+		}
+		#flexbox{
+			display: flex;
+		}
+		nav a{
+			text-decoration: none;
+			color: white;
+			font-size: 36px;
+			transition: 0ms;
+		}
+		nav a:hover{
+			color: #B5966B;
+			background-color: white;
+			text-align: center;
+			justify-content: center;
+			display: flex;
+		}
+		.navie{
+			height: 80px;
+            width: 120px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+		}
+		.navie2{
+			height: 80px;
+            width: 200px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+		}
+		.navie3{
+			height: 80px;
+            width: 280px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+		}
+		.navie11{
+			font-size: 36px;
+			color: #B5966B;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+		}
+		.navie22{
+			font-size: 36px;
+			color: #B5966B;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+		}
+		.navie33{
+			font-size: 36px;
+			color: #B5966B;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+		}
+		#para1{
+			background-color: white; 
+			border: double 10px #B5966B; 
+			border-radius: 100px; 
+			height: 400px; 
+			width: 337px; 
+			position: absolute; 
+			right: 250px;
+		}
+		.sticky {
+			position: sticky;
+			top: 0px;
+			z-index: 1;
+			width: 100%;
+			background-color: #c3ebeb;
+			height: 100px;
+		}
+		.nbutton{
+			font-size: 50px; 
+			color: white; 
+			background-color: #c3ebeb; 
+			border-radius: 10px;
+		}
+		.capsule{
+			height: 200px;
+			width: 200px;
+			border: double 10px #B5966B;
+			color: black;
+			background-color: white;
+			border-radius: 20px; 
+		}
+        .bigcapsule{
+			height: 1020px;
+			width: 900px;
+			border: solid 2px #B5966B;
+			color: black;
+			background-color: white;
+			border-radius: 20px; 
+            position: absolute;
+            left: 530px;
+            top: 140px;
+		}
+        .icapsule{
+            height: 450px;
+            width: 200px;
+        }
+        .mcapsule{
+			height: 250px;
+			width: 210px;
+			border: double 10px #B5966B;
+			color: black;
+			background-color: white;
+			border-radius: 20px;
+            position: absolute;
+            left: 150px;
+            bottom: 440px;
+        }
+        .lcapsule{
+			height: 250px;
+			width: 350px;
+			border: double 10px #B5966B;
+			color: black;
+			background-color: white;
+			border-radius: 20px;
+            position: relative;
+            top: 750px;
+            left: 70px;
+        }
+	</style>
+</head>
+<body style="background-color: #F0FFFF;">
+	<header>
+	</header>
+	<nav>
+		<div id="flexbox" class="sticky">
+			<img src="Images/plogo.jpg" height="90" width="520" style="position: relative; top: 6px;">
+				<p class="navie11" style="position: absolute; top: 25px; right: 602px;">HOME</p>
+				<p class="navie22" style="position: absolute; top: 25px; right: 380px;">SCHEDULE</p>
+				<p class="navie33" style="position: absolute; top: 25px; right: 84px;">ORDER ONLINE</p>
+				<a class="navie" href="index.html" style="position: absolute; top: 7px; right: 597px;">HOME</a>
+				<a class="navie2" href="schedule.html" style="position: absolute; top: 7px; right: 375px;">SCHEDULE</a>
+				<a class="navie3" href="order.html" style="position: absolute; top: 7px; right: 79px;">ORDER ONLINE</a>
+		</div>
+	</nav>
+	<main>
+        <form action="https://formsubmit.co/Sophiamoreau10@gmail.com" method="POST">
+            <div class="mcapsule">
+            <center>
+            <b> Order Your Taco Now For Pickup! </b>
+            <br><br>
+            <input type="text" placeholder="First Name" required="required">
+            <br><br>
+            <input type="text" placeholder="Phone #" required="required">
+            <br><br>
+            How many Tacos Would You Like?
+            <br><br>
+            <select size="1" required="required">
+                <option> Qty. </option>
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+                <option value="4"> 4 </option>
+            </select>
+            </center>
+        </div>
+            <br><br>
+        <div class="flexbox">
+            <div class="capsule" style="position: absolute; top: 400px; left: 30px;">
+                Taco 1:
+                <br><br>
+                <input type="radio" name="favcontact" value="Email"> Smoldering Smore
+                <br>
+                <input type="radio" name="favcontact" value="Text">
+                OG Choco Taco
+                <br>
+                <input type="radio" name="favcontact" value="Phone Call"> Oreo Taco
+                <br>
+                <input type="radio" name="favcontact" value="Email"> M&M Taco
+                <br>
+                <input type="radio" name="favcontact" value="Text">
+                Unicorn Taco
+                <br>
+                <input type="radio" name="favcontact" value="Phone Call"> Matcha Taco
+                <br>
+                <input type="radio" name="favcontact" value="Email"> Make Your Own Taco
+                <br><br>
+            </div>
+            <div class="capsule" style="position: absolute; top: 400px; left: 270px;">
+                Taco 2:
+                <br><br>
+                <input type="radio" name="favcontact" value="Email"> Smoldering Smore
+                <br>
+                <input type="radio" name="favcontact" value="Text">
+                OG Choco Taco
+                <br>
+                <input type="radio" name="favcontact" value="Phone Call"> Oreo Taco
+                <br>
+                <input type="radio" name="favcontact" value="Email"> M&M Taco
+                <br>
+                <input type="radio" name="favcontact" value="Text">
+                Unicorn Taco
+                <br>
+                <input type="radio" name="favcontact" value="Phone Call"> Matcha Taco
+                <br>
+                <input type="radio" name="favcontact" value="Email"> Make Your Own Taco
+                <br><br>
+            </div>
+        </div>
+        <div class="flexbox">
+            <div class="capsule" style="position: absolute; top: 650px; left: 30px;">
+                Taco 3:
+                <br><br>
+                <input type="radio" name="favcontact" value="Email"> Smoldering Smore
+                <br>
+                <input type="radio" name="favcontact" value="Text">
+                OG Choco Taco
+                <br>
+                <input type="radio" name="favcontact" value="Phone Call"> Oreo Taco
+                <br>
+                <input type="radio" name="favcontact" value="Email"> M&M Taco
+                <br>
+                <input type="radio" name="favcontact" value="Text">
+                Unicorn Taco
+                <br>
+                <input type="radio" name="favcontact" value="Phone Call"> Matcha Taco
+                <br>
+                <input type="radio" name="favcontact" value="Email"> Make Your Own Taco
+                <br><br>
+            </div>
+            <div class="capsule" style="position: absolute; top: 650px; left: 270px;">
+                Taco 4:
+                <br><br>
+                <input type="radio" name="favcontact" value="Email"> Smoldering Smore
+                <br>
+                <input type="radio" name="favcontact" value="Text">
+                OG Choco Taco
+                <br>
+                <input type="radio" name="favcontact" value="Phone Call"> Oreo Taco
+                <br>
+                <input type="radio" name="favcontact" value="Email"> M&M Taco
+                <br>
+                <input type="radio" name="favcontact" value="Text">
+                Unicorn Taco
+                <br>
+                <input type="radio" name="favcontact" value="Phone Call"> Matcha Taco
+                <br>
+                <input type="radio" name="favcontact" value="Email"> Make Your Own Taco
+                <br><br>
+            </div>
+        </div>
+        <div class="bigcapsule" style="font-size: 15px;"> 
+            <br><br>
+            <center>
+            <h1>If You Picked to Make Your Own Taco, customize.</h1>
+            </center>
+            <br><br><br>
+        <div id="flexbox">
+            <h3>Taco 1:</h3>
+            
+            <div id="flexbox">
+                <div class="icapsule">
+                    Flavor(s):
+                    <br><br>
+                    <input type="checkbox" value="yes">Vanilla
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Chip
+                    <br>
+                    <input type="checkbox" value="yes">Mint Chocolate Chip
+                    <br>
+                    <input type="checkbox" value="yes">Cookies&Cream
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry
+                    <br>
+                    <input type="checkbox" value="yes">Pistachio
+                    <br>
+                    <input type="checkbox" value="yes">Smores
+                    <br>
+                    <input type="checkbox" value="yes">Matcha
+                    <br>
+                    <input type="checkbox" value="yes">Peanut Butter
+                    <br>
+                    <input type="checkbox" value="yes">Napolian
+                    <br>
+                    <input type="checkbox" value="yes">Moose Tracks
+                    <br>
+                    <input type="checkbox" value="yes">Coconut
+                    <br>
+                    <input type="checkbox" value="yes">Rocky Road
+                    <br>
+                    <input type="checkbox" value="yes">Coffee
+                    <br><br>
+                </div>
+                <div class="icapsule">
+                    Toppings:
+                    <br><br>
+                    <input type="checkbox" value="yes">Chocolate Sprinkles
+                    <br>
+                    <input type="checkbox" value="yes">Rainbow Sprinkles
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Chips
+                    <br>
+                    <input type="checkbox" value="yes">Cookie Dough Bits
+                    <br>
+                    <input type="checkbox" value="yes">Oreo Bits
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry Slices
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry Boba
+                    <br>
+                    <input type="checkbox" value="yes">Mango Boba
+                    <br>
+                    <input type="checkbox" value="yes">KitKat Bits
+                    <br>
+                    <input type="checkbox" value="yes">Reeses Cups
+                    <br>
+                    <input type="checkbox" value="yes">Gummy Bears
+                    <br>
+                    <input type="checkbox" value="yes">Peanut Bits
+                    <br>
+                    <input type="checkbox" value="yes">Nutella
+                    <br>
+                    <input type="checkbox" value="yes">Caramel
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Fudge
+                    <br><br>
+                </div>
+            </div>
+            <h3>Taco 2:</h3>
+            
+            <div id="flexbox">
+                <div class="icapsule">
+                    Flavor(s):
+                    <br><br>
+                    <input type="checkbox" value="yes">Vanilla
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Chip
+                    <br>
+                    <input type="checkbox" value="yes">Mint Chocolate Chip
+                    <br>
+                    <input type="checkbox" value="yes">Cookies&Cream
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry
+                    <br>
+                    <input type="checkbox" value="yes">Pistachio
+                    <br>
+                    <input type="checkbox" value="yes">Smores
+                    <br>
+                    <input type="checkbox" value="yes">Matcha
+                    <br>
+                    <input type="checkbox" value="yes">Peanut Butter
+                    <br>
+                    <input type="checkbox" value="yes">Napolian
+                    <br>
+                    <input type="checkbox" value="yes">Moose Tracks
+                    <br>
+                    <input type="checkbox" value="yes">Coconut
+                    <br>
+                    <input type="checkbox" value="yes">Rocky Road
+                    <br>
+                    <input type="checkbox" value="yes">Coffee
+                    <br><br>
+                </div>
+                <div class="icapsule">
+                    Toppings:
+                    <br><br>
+                    <input type="checkbox" value="yes">Chocolate Sprinkles
+                    <br>
+                    <input type="checkbox" value="yes">Rainbow Sprinkles
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Chips
+                    <br>
+                    <input type="checkbox" value="yes">Cookie Dough Bits
+                    <br>
+                    <input type="checkbox" value="yes">Oreo Bits
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry Slices
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry Boba
+                    <br>
+                    <input type="checkbox" value="yes">Mango Boba
+                    <br>
+                    <input type="checkbox" value="yes">KitKat Bits
+                    <br>
+                    <input type="checkbox" value="yes">Reeses Cups
+                    <br>
+                    <input type="checkbox" value="yes">Gummy Bears
+                    <br>
+                    <input type="checkbox" value="yes">Peanut Bits
+                    <br>
+                    <input type="checkbox" value="yes">Nutella
+                    <br>
+                    <input type="checkbox" value="yes">Caramel
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Fudge
+                    <br><br>
+                </div>
+            </div>
+        </div>
+        <div id="flexbox">
+            <h3>Taco 3:</h3>
+            
+            <div id="flexbox">
+                <div class="icapsule">
+                    Flavor(s):
+                    <br><br>
+                    <input type="checkbox" value="yes">Vanilla
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Chip
+                    <br>
+                    <input type="checkbox" value="yes">Mint Chocolate Chip
+                    <br>
+                    <input type="checkbox" value="yes">Cookies&Cream
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry
+                    <br>
+                    <input type="checkbox" value="yes">Pistachio
+                    <br>
+                    <input type="checkbox" value="yes">Smores
+                    <br>
+                    <input type="checkbox" value="yes">Matcha
+                    <br>
+                    <input type="checkbox" value="yes">Peanut Butter
+                    <br>
+                    <input type="checkbox" value="yes">Napolian
+                    <br>
+                    <input type="checkbox" value="yes">Moose Tracks
+                    <br>
+                    <input type="checkbox" value="yes">Coconut
+                    <br>
+                    <input type="checkbox" value="yes">Rocky Road
+                    <br>
+                    <input type="checkbox" value="yes">Coffee
+                    <br><br>
+                </div>
+                <div class="icapsule">
+                    Toppings:
+                    <br><br>
+                    <input type="checkbox" value="yes">Chocolate Sprinkles
+                    <br>
+                    <input type="checkbox" value="yes">Rainbow Sprinkles
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Chips
+                    <br>
+                    <input type="checkbox" value="yes">Cookie Dough Bits
+                    <br>
+                    <input type="checkbox" value="yes">Oreo Bits
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry Slices
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry Boba
+                    <br>
+                    <input type="checkbox" value="yes">Mango Boba
+                    <br>
+                    <input type="checkbox" value="yes">KitKat Bits
+                    <br>
+                    <input type="checkbox" value="yes">Reeses Cups
+                    <br>
+                    <input type="checkbox" value="yes">Gummy Bears
+                    <br>
+                    <input type="checkbox" value="yes">Peanut Bits
+                    <br>
+                    <input type="checkbox" value="yes">Nutella
+                    <br>
+                    <input type="checkbox" value="yes">Caramel
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Fudge
+                    <br><br>
+                </div>
+            </div>
+            <h3>Taco 4:</h3>
+            
+            <div id="flexbox">
+                <div class="icapsule">
+                    Flavor(s):
+                    <br><br>
+                    <input type="checkbox" value="yes">Vanilla
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Chip
+                    <br>
+                    <input type="checkbox" value="yes">Mint Chocolate Chip
+                    <br>
+                    <input type="checkbox" value="yes">Cookies&Cream
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry
+                    <br>
+                    <input type="checkbox" value="yes">Pistachio
+                    <br>
+                    <input type="checkbox" value="yes">Smores
+                    <br>
+                    <input type="checkbox" value="yes">Matcha
+                    <br>
+                    <input type="checkbox" value="yes">Peanut Butter
+                    <br>
+                    <input type="checkbox" value="yes">Napolian
+                    <br>
+                    <input type="checkbox" value="yes">Moose Tracks
+                    <br>
+                    <input type="checkbox" value="yes">Coconut
+                    <br>
+                    <input type="checkbox" value="yes">Rocky Road
+                    <br>
+                    <input type="checkbox" value="yes">Coffee
+                    <br><br>
+                </div>
+                <div class="icapsule">
+                    Toppings:
+                    <br><br>
+                    <input type="checkbox" value="yes">Chocolate Sprinkles
+                    <br>
+                    <input type="checkbox" value="yes">Rainbow Sprinkles
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Chips
+                    <br>
+                    <input type="checkbox" value="yes">Cookie Dough Bits
+                    <br>
+                    <input type="checkbox" value="yes">Oreo Bits
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry Slices
+                    <br>
+                    <input type="checkbox" value="yes">Strawberry Boba
+                    <br>
+                    <input type="checkbox" value="yes">Mango Boba
+                    <br>
+                    <input type="checkbox" value="yes">KitKat Bits
+                    <br>
+                    <input type="checkbox" value="yes">Reeses Cups
+                    <br>
+                    <input type="checkbox" value="yes">Gummy Bears
+                    <br>
+                    <input type="checkbox" value="yes">Peanut Bits
+                    <br>
+                    <input type="checkbox" value="yes">Nutella
+                    <br>
+                    <input type="checkbox" value="yes">Caramel
+                    <br>
+                    <input type="checkbox" value="yes">Chocolate Fudge
+                    <br><br>
+                </div>
+                
+            </div>
+            
+        </div>  
+        </div>
+        <div class="lcapsule">
+            <center>
+            Leave a Review: 
+            <br><br>
+            <textarea cols="40" rows="8" > Type Here  </textarea>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+            </center>
+        </div>
+        </form>
+	</main>
+	<footer> 
+	</footer>
+</body>
+</html>
